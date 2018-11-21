@@ -1,7 +1,7 @@
-FROM busybox:latest
+FROM alpine:3.6
 
 # Version of RabbitMQ to install
-ENV RABBITMQ_VERSION=3.6.14 \
+ENV RABBITMQ_VERSION=3.6.2 \
     ERL_EPMD_PORT=4369 \
     AUTOCLUSTER_VERSION=0.10.0 \
     HOME=/var/lib/rabbitmq \
